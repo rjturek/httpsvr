@@ -2,6 +2,6 @@ machine:
   services:
     - docker
     
-  dependencies:
-    post:
-      - echo "SSSSSSSSSSSSSSSSSSSSTinky"
+dependencies:
+  post:
+    - echo "SSSSSSSSSSSSSSSSSSSSTinky"
