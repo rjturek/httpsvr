@@ -1,3 +1,8 @@
+sudo: required
+
+services:
+  - docker
+
 language: go
 
 go:
@@ -5,4 +10,4 @@ go:
 
 after_script: # here's a build step block
 - echo "Dumping the environment"
-- env
+- docker version 
