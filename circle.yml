@@ -4,4 +4,5 @@ machine:
     
 dependencies:
   post:
-    - echo "SSSSSSSSSSSSSSSSSSSSTinky"
+    - echo "DDDDDDDocker Version"
+    docker version
