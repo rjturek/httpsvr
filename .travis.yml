@@ -1,9 +1,8 @@
 language: go
 
 go:
-  - 1.7
   - tip
 
 after_script: # here's a build step block
-- echo "We can put normal shell commands here"
-- echo "more shell commands here"
+- echo "Dumping the environment"
+- env
